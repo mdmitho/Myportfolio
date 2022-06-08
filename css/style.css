@@ -270,17 +270,14 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #0F1729;
 }
 .services .title::before,
 .teams .title::before{
     background: #fff;
 }
 .services .title::after,
-/* .teams .title::after{
-    background: #111;
-    content: "what i provide";
-} */
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -313,11 +310,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
 
-/* .skills .title::after{
-    content: "what i know";
-} */
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }

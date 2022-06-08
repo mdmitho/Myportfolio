@@ -71,3 +71,25 @@ $(document).ready(function(){
         }
     });
 });
+
+
+const  name = document.getElementById('name')
+const email = document.getElementById('email')
+    const message = document.getElementById('message')
+function sendEmail(){
+  Email.send({
+    SecureToken: "7ce65443-ae63-4e04-9433-d3a9307ce7cb",
+    To: "hossen.webdeveloper@gmail.com",
+    From: email.value,
+    Subject: "New Contact Form Enquiry",
+    Body:
+      "Name : " +
+      document.getElementById("name").value +
+      "<br> Email : " +
+      document.getElementById("email").value +
+      "<br> Phone : " +
+      document.getElementById("phone").value +
+      "<br> Message : " +
+      document.getElementById("message").value,
+  }).then((message) => alert("message send  Succesfully"));
+}
