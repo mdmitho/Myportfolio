@@ -224,9 +224,9 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
+/* .about .title::after{
     content: "who i am";
-}
+} */
 .about .about-content .left{
     width: 45%;
 }
@@ -277,10 +277,10 @@ section .title::after{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+/* .teams .title::after{
     background: #111;
     content: "what i provide";
-}
+} */
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -315,9 +315,9 @@ section .title::after{
 
 /* skills section styling */
 
-.skills .title::after{
+/* .skills .title::after{
     content: "what i know";
-}
+} */
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -547,43 +547,18 @@ section .title::after{
   background: none;
 }
 /* footer section styling */
-.footer {
-	min-height: 20vh;
-	max-width: 100%;
-	background-color: #27283D;
-	color: white;
-	flex-direction: column;
-	text-align: center;
-	padding: 15px;
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
 }
-.footer .footer-contact {
-	/* padding: 10px; */
+footer span a{
+    color: crimson;
+    text-decoration: none;
 }
-.footer .footer-contact .footer-contact-heading {
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom: 10px;
-}
-.footer .footer-contact .footer-contact-info {
-	font-size: 1rem;
-	padding-top: 10px;
-	letter-spacing: .2rem;
-}
-.footer .footer-social-follow .footer-social-icon a {
-	color: white;
-	font-size: 2rem;
-	margin: .4rem;
-	display: inline-block; 
-}
-/* End Footer section */
-
-.copyrighr p {
-  color: #fff;
-}
-
-.copyrighr p span {
-  color: #D63A5F; 
+footer span a:hover{
+    text-decoration: underline;
 }
 
 
