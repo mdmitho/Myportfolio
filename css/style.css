@@ -535,6 +535,21 @@ section .title::after{
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
+.btn{
+    border: 4px solid crimson;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn:hover{
+    border: 2px solid block;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 .right form .button-area button:hover{
   color: crimson;
   background: none;
